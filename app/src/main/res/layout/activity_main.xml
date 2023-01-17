@@ -11,18 +11,17 @@
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="52dp"
         android:layout_marginTop="85dp"
-        android:layout_marginEnd="180dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginBottom="15dp"
         android:fontFamily="@font/bantayog_regular"
         android:text="CookingJoy"
         android:textAlignment="center"
         android:textColor="#A9A454"
-        android:textSize="45sp"
+        android:textSize="35sp"
         app:layout_constraintBottom_toTopOf="@+id/subtitle"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toStartOf="@+id/button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText,MissingConstraints" />
@@ -144,6 +143,20 @@
         app:layout_constraintTop_toBottomOf="@+id/timerIcon"
         app:srcCompat="@drawable/chef"
         tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#A9A454"
+        android:text="About"
+        android:textColor="#EFE4D4"
+        app:layout_constraintBottom_toTopOf="@+id/subtitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
