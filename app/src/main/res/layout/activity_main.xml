@@ -21,7 +21,7 @@
         android:textColor="#A9A454"
         android:textSize="35sp"
         app:layout_constraintBottom_toTopOf="@+id/subtitle"
-        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/helpButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText,MissingConstraints" />
@@ -145,7 +145,7 @@
         tools:ignore="ContentDescription" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/helpButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="75dp"
