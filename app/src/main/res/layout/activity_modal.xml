@@ -37,7 +37,7 @@
                 <TextView
                     android:id="@+id/tutorialText"
                     android:text="The application's purpose is to help the user to list the ingredients and equipment they already have, as well as set a timer for the amount of time the dish needs."
-                    android:textColor="#383d3b"
+                    android:textColor="#250800"
                     android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
