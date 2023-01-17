@@ -3,6 +3,7 @@ package com.example.cookingutilityapp
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_equipment.*
@@ -11,6 +12,7 @@ class Equipment : AppCompatActivity() {
     lateinit var backButton: Button
     lateinit var enterButton: Button
     lateinit var removeButton: Button
+    lateinit var ingredientName: EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
